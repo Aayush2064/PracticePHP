@@ -1,0 +1,58 @@
+.form {
+    margin:auto;
+    border:1px solid rgba(255, 255, 255, 0);
+    padding:40px 20px 40px 20px;
+    width: 300px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+form {
+    font-size: 18px;
+    padding: 20px 10px 20px 10px;  
+}
+#fname {
+    opacity: 0.5;
+}
+#fname:hover {
+    opacity: 1;
+}
+#lname {
+    opacity: 0.5;
+}
+#lname:hover {
+    opacity: 1;
+}
+#email {
+    opacity: 0.5;
+}
+#email:hover {
+    opacity: 1;
+}
+a.btn {
+    display:block;
+    padding: 20px;
+    border:1px solid rgba(0,0,0,0.1);
+    text-align:center;
+    width: 200px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+
+a.btn:hover {
+  border:1px solid rgba(0,0,0);
+  color:green;
+}
+div.btn {
+    text-align:left;
+    margin:0;
+    padding:0;
+}
+div.error {
+    color: red;
+    font-size: 14px;
+    margin-top:10px;
+    padding: 0;
+}
